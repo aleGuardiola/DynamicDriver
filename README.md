@@ -75,9 +75,26 @@ private:
 		
 };
 ```
+After you have your listener you need to to call driver.setup() and driver.loop():
+
+```c++
+MyDynamicDriver driver;
+
+void setup()
+{
+   driver.setup();
+}
+
+void loop()
+{
+   driver.loop();
+}
+
+```
+
 
 ## How to comunicate with the arduino
 You need to use a client for now the only one that you can use is the C# client that is:
 but you are welcome to provide a new one :).
 
-#Special Thanks to Christophe Diericx
+# Special Thanks to Christophe Diericx
