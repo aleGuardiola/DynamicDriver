@@ -94,7 +94,7 @@ void loop()
 
 
 ## How to comunicate with the arduino
-You need to use a client for now the only one that you can use is the C# client that is:
+You need to use a client for now the only one that you can use is the C# client that is: https://github.com/aleGuardiola/ArduinoDynamicDriver
 but you are welcome to provide a new one :).
 
 # Special Thanks to Christophe Diericx
